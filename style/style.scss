@@ -1,0 +1,226 @@
+*{
+    // outline: 1px solid red;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    // background-color: #c6e4f4; 
+    color: #131415;
+    // display:flex;
+}
+
+i.fa{
+    font-size: 45px;
+    padding: 5px 10px 0 5px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+button.box__nav-btn{
+    border: none;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+a{
+    color: blue;
+}
+
+ul, li{
+    list-style: none;
+    padding: 0;
+}
+
+input {
+    border: 1px solid #dddddd;
+    width: 150px;
+    height: 28px;
+    border-radius: 2px;
+    margin-top: 10px;
+    }
+
+img, .box__info-photo{
+    width: 250px;
+    height: 250px;
+    border-radius: 2px;
+}
+
+.box{
+    margin: 0 auto;
+    width: 950px;
+    height: auto;
+    position: relative;
+
+    &__nav{
+        margin: 0 auto;
+        width: 920px;
+        height: 60px;
+        top: 40px;
+        left: 5px;
+        right: 30px;
+        background-color: #eeeeee;
+        border-top: 2px solid #d7d6d7;
+        display: flex;
+        position: relative;
+        align-items: center;
+    }
+
+    &__github-logo{
+        background-color: #eeeeee;
+
+    }
+    &__nav-btn{
+        background-color: #eeeeee;
+
+    }
+    &__container{
+        display: flex;
+       flex-wrap: row;
+       justify-content: space-between;
+
+    }
+
+    &__info-left{
+        // display: inline-block;
+        position: relative;
+        width: 250px;
+        margin-top:50px; 
+        margin-left: 50px;
+
+    }
+
+    &__info-btn{
+        width: 100%;
+        height: 30px;
+        font-size: 15px;
+        font-weight: bold;
+        border: 1px solid #f2f2f2;
+        background-color: #f8f8f8;
+
+    }
+
+    &__info-login, h6{
+        color: grey;
+    }
+
+
+    &__info-center{
+        display: flex;
+        width: 520px;
+        margin-top: 70px; 
+        margin-right: 100px;
+        padding-left: 15px;
+        padding-right: 5px;   
+    }
+}
+
+.repos{
+    width: 450px;
+    &__div-details{
+        width: 100%;
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+       justify-content: space-between;
+   }
+
+    &__span-title{
+    color: blue;
+    width: 500px;
+    padding-top: 15px;
+    border-top: 1px solid black;
+}
+
+    &__span-desc p{
+    height: 20px;
+}
+
+    &__div-details--fork, &__div-details--date {
+        padding-right: 16px;
+        padding-left: 16px;
+        margin-right: 0;
+        display: inline;
+        border-right: 1px solid black;
+ }
+
+    &__div-details--lang {
+        padding-right: 16px;
+        margin-right: 0;
+        display: inline;
+        border-right: 1px solid black;
+
+ }
+
+}
+
+
+
+.a__link{
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+}
+
+
+
+
+// p .repos__div-details--lang {
+//     width: 50px;
+// }
+
+// .epos__span-title{
+//     width: 100%;
+// }
+
+
+
+
+//  .repos__div-details--fork, .repos__div-details--date {
+//         padding-left: 16px;
+//         margin: 0;
+//  }
+
+
+    //   padding-bottom: 20px;
+    //    }
+    //   .repos__single__details__language {
+    //     padding-right: 16px;
+    //     margin: 0;
+    //     border-right: black solid 1px; }
+    //   .repos__single__details__commits {
+    //     padding: 0 16px;
+    //     margin: 0;
+    //     border-right: black solid 1px; }
+    //   .repos__single__details__date {
+    //     padding: 0 16px;
+    //     margin: 0; }
+
+
+
+//  @media screen and (min-width: 768px) {
+//   .box > div:last-of-type {
+//   display: flex;
+//   }
+//   .box > div:last-of-type {
+//     text-align: left;
+//     outline: 1px solid red;
+//     padding: 0 6px;
+//   }
+// }
+
+// @media screen and (min-width: 768px){
+//     .box__nav-header > div:last-of-type {
+//         display: flex;
+// }
+// }
+
+// @media screen and (min-width: 1018px){
+// .box__nav-header > div:last-of-type{
+//     padding-left: 30px;    
+//     width: 70%;
+// }
+// }

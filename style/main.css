@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  font-family: sans-serif;
+  color: #131415; }
+
+i.fa {
+  font-size: 45px;
+  padding: 5px 10px 0 5px; }
+
+button:hover {
+  cursor: pointer; }
+
+button.box__nav-btn {
+  border: none;
+  margin-top: 10px;
+  padding: 5px; }
+
+a {
+  color: blue; }
+
+ul, li {
+  list-style: none;
+  padding: 0; }
+
+input {
+  border: 1px solid #dddddd;
+  width: 150px;
+  height: 28px;
+  border-radius: 2px;
+  margin-top: 10px; }
+
+img, .box__info-photo {
+  width: 250px;
+  height: 250px;
+  border-radius: 2px; }
+
+.box {
+  margin: 0 auto;
+  width: 950px;
+  height: auto;
+  position: relative; }
+  .box__nav {
+    margin: 0 auto;
+    width: 920px;
+    height: 60px;
+    top: 40px;
+    left: 5px;
+    right: 30px;
+    background-color: #eeeeee;
+    border-top: 2px solid #d7d6d7;
+    display: flex;
+    position: relative;
+    align-items: center; }
+  .box__github-logo {
+    background-color: #eeeeee; }
+  .box__nav-btn {
+    background-color: #eeeeee; }
+  .box__container {
+    display: flex;
+    flex-wrap: row;
+    justify-content: space-between; }
+  .box__info-left {
+    position: relative;
+    width: 250px;
+    margin-top: 50px;
+    margin-left: 50px; }
+  .box__info-btn {
+    width: 100%;
+    height: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid #f2f2f2;
+    background-color: #f8f8f8; }
+  .box__info-login, .box h6 {
+    color: grey; }
+  .box__info-center {
+    display: flex;
+    width: 520px;
+    margin-top: 70px;
+    margin-right: 100px;
+    padding-left: 15px;
+    padding-right: 5px; }
+
+.repos {
+  width: 450px; }
+  .repos__div-details {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between; }
+  .repos__span-title {
+    color: blue;
+    width: 500px;
+    padding-top: 15px;
+    border-top: 1px solid black; }
+  .repos__span-desc p {
+    height: 20px; }
+  .repos__div-details--fork, .repos__div-details--date {
+    padding-right: 16px;
+    padding-left: 16px;
+    margin-right: 0;
+    display: inline;
+    border-right: 1px solid black; }
+  .repos__div-details--lang {
+    padding-right: 16px;
+    margin-right: 0;
+    display: inline;
+    border-right: 1px solid black; }
+
+.a__link {
+  text-decoration: none;
+  font-size: 16px;
+  color: black; }
